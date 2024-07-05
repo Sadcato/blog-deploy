@@ -34,7 +34,8 @@ run_command(f'D:\git\Git\bin\bash.exe -c "{command}"')
 ```bash
 pyinstaller --onefile deploy.py
 ```
-这将生成一个 dist 目录，其中包含 deploy.exe 文件。
+这将生成一个 dist 目录，其中包含 deploy.exe 文件。  
+
 4. **运行EXE文件**
 双击 dist 目录中的 deploy.exe 文件，它将在当前目录下执行Hexo命令。
 
